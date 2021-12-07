@@ -7,7 +7,7 @@ body
 }
 #container
 {
-    width = 70%;
+    width: 70%;
     padding: 1em;
     text-align: center;
     border: 1px solid #DD5;
@@ -17,4 +17,12 @@ body
 #container h1 
 {
     font-size: 20px;
+}
+
+#cabecera
+{
+    font-size: 15px;
+    text-align: left;
+    background-color: red;
+    color: cyan;
 }
