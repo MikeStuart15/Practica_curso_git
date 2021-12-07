@@ -10,8 +10,8 @@ body
     width: 70%;
     padding: 1em;
     text-align: center;
-    border: 1px solid #DD5;
-    margin: 0 auto;
+    border: 1.5px solid #DD5;
+    margin: 10 auto;
 }
 
 #container h1 
@@ -22,7 +22,10 @@ body
 #cabecera
 {
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     background-color: red;
     color: cyan;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
