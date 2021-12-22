@@ -3,15 +3,16 @@ body
     font-size: 16px;
     font-family: "Times New Roman";
     text-align: center;
-    color: deeppink;
-    background-color: rgb(106, 106, 165);
+    color: rgb(127, 231, 200);
+    background-color: rgb(123, 123, 167);
 }
 #container
 {
     width : 70%; 
     padding: 1em;
     text-align: center;
-    border: 1.5px solid #DD5;
+    border: 3px solid #DD5;
+    background-color: rgb(99, 153, 224);
     margin: 10 auto;
 }
 
@@ -22,11 +23,29 @@ body
 
 #cabecera
 {
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
-    background-color: red;
-    color: cyan;
+    background-color: rgb(105, 35, 35);
+    border: 3px solid rgb(160, 187, 61); 
+    color: rgb(65, 177, 192);
     padding: 0;
     margin: 0;
     width: 100%;
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
+#footer
+{
+    text-align: center;
+    color: greenyellow;
+    background-color:rgb(199, 199, 199);
+    font-size: 30px;
+    border: 3px solid #DD5;
+    width: 70%;
+    margin: 10 auto;
 }
